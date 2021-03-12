@@ -12,7 +12,7 @@ body{
     margin: 20px 0;
 }
 .film select{
-    background-color: rgb(242, 245, 240);
+    background-color: rgb(252, 250, 249);
     border: 0;
     border-radius: 5px;
     margin-left: 10px;
@@ -34,11 +34,11 @@ body{
 
 }
 .seat.selected{
-    background-color: #6feaf6;
+    background-color: #38e40d;
 
 }
 .seat.occupied{
-    background-color: #efff;
+    background-color: rgb(253, 66, 9);
 
 }
 .seat:nth-of-type(2){
