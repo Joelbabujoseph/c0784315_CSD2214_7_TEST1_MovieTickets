@@ -1,6 +1,6 @@
 body{
     background-color: aqua;
-    color:#fff ;
+    color:rgb(19, 18, 18) ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,7 @@ body{
     margin: 20px 0;
 }
 .film select{
-    background-color: #fff;
+    background-color: rgb(242, 245, 240);
     border: 0;
     border-radius: 5px;
     margin-left: 10px;
@@ -25,7 +25,7 @@ body{
 
 }
 .seat{
-    background-color: #444451;
+    background-color: #f3f3f7;
     height: 12px;
     width: 15px;
     margin:3px;
@@ -47,4 +47,39 @@ body{
 .seat:nth-last-of-type(2){
     margin-left: 18px;
 }
+.seat:not(.occupied):hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.n .seat:not(.occupied):hover{
+    cursor: default;
+    transform: scale(1);
+}
+.n{
+    background: rgba(0,0,0,0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
 
+}
+.n li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.n li small{
+    margin-left: 2px;
+}
+.row{
+    display: flex;
+}
+p.text{
+    margin: 5px 0;
+}
+p.text span{
+    color:#6feaf6
+}
